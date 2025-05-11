@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 
 # Load data
-df = pd.read_csv("C:/Users/ejlal/OneDrive/Desktop/Global_AI_Content_Impact_Dataset.csv")
+df = pd.read_csv("Global_AI_Content_Impact_Dataset.csv")
 df.fillna(df.mean(numeric_only=True), inplace=True)
 df.dropna(inplace=True)
 
